@@ -18,6 +18,7 @@ const Header = () => {
             <a>Contact</a>
           </li>
         </ul>
+        <h3>Il Ristorante</h3>
       </nav>
     </div>
   );
