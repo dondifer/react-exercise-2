@@ -1,4 +1,3 @@
-import "./App.scss";
 import Counter from "./components/Counter/Counter";
 import Greeting from "./components/Greeting/Greeting";
 import Home from "./components/Home/Home";

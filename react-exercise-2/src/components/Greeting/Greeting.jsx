@@ -1,4 +1,3 @@
-import "./Greeting.scss";
 import { useState, useEffect } from "react";
 
 const Greeting = (props) => {

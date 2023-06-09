@@ -1,4 +1,3 @@
-import "./Counter.scss";
 import { useState } from "react";
 
 const Counter = (props) => {
