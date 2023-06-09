@@ -1,0 +1,22 @@
+nav {
+  background-color: rgb(75, 75, 75);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  ul {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    li {
+      list-style-type: none;
+      margin: 0 0.8rem;
+      transition: transform 0.3s ease;
+    }
+
+    li:hover {
+      cursor: pointer;
+      transform: scale(0.8);
+    }
+  }
+}
