@@ -1,6 +1,10 @@
 import Counter from "./components/Counter/Counter";
 import Greeting from "./components/Greeting/Greeting";
+import GreetingC from "./components/GreetingC/GreetingC";
 import Home from "./components/Home/Home";
+import HomeC from "./components/HomeC/HomeC";
+import Header from "./components/Header/Header.jsx";
+
 function App() {
   const dishes = [
     {
@@ -28,8 +32,11 @@ function App() {
 
   return (
     <div>
+      <Header />
       <Greeting />
+      <GreetingC />
       <Home dishesList={dishes} />
+      <HomeC dishesList={dishes} />
       <Counter />
       <Counter count={3} mult={2} />
       <Counter count={97} mult={3} />
